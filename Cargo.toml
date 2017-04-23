@@ -1,0 +1,17 @@
+[package]
+name = "tokio-metrics"
+version = "0.1.0"
+authors = ["Drazen Urch <github@drazenur.ch>"]
+
+[dependencies]
+futures = "0.1"
+tokio-proto = "0.1"
+tokio-service = "0.1"
+
+tokio-minihttp = { git = "https://github.com/tokio-rs/tokio-minihttp" }
+
+futures-cpupool = "0.1"
+rand = "0.3"
+rustc-serialize = "0.3"
+# until next version of metrics is published
+metrics = {git = "https://github.com/durch/rust-metrics"}
